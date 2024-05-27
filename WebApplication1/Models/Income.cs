@@ -5,5 +5,6 @@
         public int Id { get; set; }
         public string CurrencyName { get; set; }
         public string revenue { get; set; }
+        public Company Company { get; set; }
     }
 }
